@@ -26,8 +26,8 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/justify.css" />
-    <link rel="stylesheet" type="text/css" href="_static/.ipynb_checkpoints/justify-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="_static/dynamic_css.css" />
+    <link rel="stylesheet" type="text/css" href="_static/.ipynb_checkpoints/dynamic_css-checkpoint.css" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -335,6 +335,16 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="methodology">
 <h1>Methodology<a class="headerlink" href="#methodology" title="Permalink to this heading">#</a></h1>
 <p>This section will discuss the methodology surrounding the 2012-2015 data.</p>
+<p>It is important to note that DARE_UK does not currently have the capabilities to record emission contributions from individual economic sectors, although we are currently working towards this.</p>
+<p>As such, the sectoral emissions presented here are estimated using emissions data published in the UK Greenhouse Gas Inventory.</p>
+<p>By analysing data published in the UK GHG Inventory, we are able to estimate the percentage of average yearly emissions emitted by each economic sector from each individual grid-cell. We have then applied these same percentages from each grid-cell to the data published by the DARE_UK network between 2012-2022, as shown below.</p>
+<p>These sectors are then further categorised into 4 major economic sectors as such:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Energy and Transport = Domestic combustion, Energy Production, Road Transport and Other Transport 
+Industiral Processes = Industrial combustion and Industrial Production
+Agriculture = Agriculture
+Waste = Waste 
+</pre></div>
+</div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <img alt="_images/Methodology_13_0.png" src="_images/Methodology_13_0.png" />
